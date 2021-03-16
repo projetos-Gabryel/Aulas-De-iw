@@ -1,0 +1,32 @@
+<!doctipe html>
+<html>
+
+body{
+	background-color:#191970;
+	}
+
+
+h1,h2{
+    text-align: center;
+ 	color: #000000;
+ 	font-weight:bolder;
+ }
+p{
+    color:#000000;
+ 	font-weight:bolder;
+    font-size:bolder;
+
+ }
+
+ul li{
+      text-decoration: underline;
+      color:#000000 ;
+      font-weight: bolder;
+
+  }
+ 
+figure{
+      
+      text-align: center;
+      border: 20px dashed #EE82EE;
+     }
