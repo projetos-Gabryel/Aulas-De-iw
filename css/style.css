@@ -1,18 +1,19 @@
-<!doctipe html>
-<html>
 
 body{
-	background-color:#191970;
+	background-image: url(../img/fundo.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	}
 
 
 h1,h2{
     text-align: center;
- 	color: #000000;
+ 	color: #FFFFFF;
  	font-weight:bolder;
  }
 p{
-    color:#000000;
+    color:#FFFFFF;
  	font-weight:bolder;
     font-size:bolder;
 
@@ -20,7 +21,7 @@ p{
 
 ul li{
       text-decoration: underline;
-      color:#000000 ;
+      color:#FFFFFF ;
       font-weight: bolder;
 
   }
