@@ -1,7 +1,7 @@
 
 body{
 	background-image: url(../img/fundo.jpg);
-  background-repeat: no-repeat;
+  background-repeat: round;
     background-size: cover;
     background-attachment: fixed;
 	}
@@ -9,11 +9,11 @@ body{
 
 h1,h2{
     text-align: center;
- 	color: #FFFFFF;
+ 	color: #ff0000;
  	font-weight:bolder;
  }
 p{
-    color:#FFFFFF;
+    color:#ff0000;
  	font-weight:bolder;
     font-size:bolder;
 
@@ -21,7 +21,7 @@ p{
 
 ul li{
       text-decoration: underline;
-      color:#FFFFFF ;
+      color:#ff0000 ;
       font-weight: bolder;
 
   }
@@ -29,5 +29,5 @@ ul li{
 figure{
       
       text-align: center;
-      border: 20px dashed #EE82EE;
+      border: 20px dashed #ff0000;
      }
