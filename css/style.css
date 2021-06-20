@@ -2,8 +2,9 @@
 body{
 	background-image: url(../img/fundo.jpg);
   background-repeat: round;
-    background-size: cover;
-    background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Dancing Script', cursive;
 	}
 
 .container{
@@ -13,34 +14,50 @@ body{
     margin-left: auto;
 }
 
-header, footer{
-background-color: rgb(25,25,112,0.5);
-padding: 3%;
+header{
+ background-color: rgb(25,25,112,0.5);
+ padding: 2%
+ font-family: 'Satisfy', cursive;
 }
 
-h1,h2{
-    text-align: center;
+h1{
+font-size: 2em;  
+}
+
+
+h2{
+font-size: 1.5em;
+
+}
+
+.titulos{
+  text-align: center;
  	color: #ffffff;
  	font-weight:bolder;
+  line-height: 2;
  }
 p{
-    color:#ffffff;
+  color:#ffffff;
  	font-weight:bolder;
-    font-size:bolder;
+  font-size:1.2em;
+  margin-top: 2%
+  margin-bottom:2%
 
  }
 
 ul li, ol li{
       text-decoration: underline;
       color:#ffffff ;
+      font-size: 1.2em
       font-weight: bolder;
+      line-height: 1.5
 
   }
  
 figure{
       
       text-align: center;
-      border: 20px dashed #ffffff;
+      border: 10px dashed #ffffff;
      }
 footer{
           position: fixed;
@@ -49,3 +66,50 @@ footer{
           right: 0;
           left: 0;
         }
+
+  link {  
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4169E1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #4B0082;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ table{
+          border-collapse: collapse;
+          width: 80%
+          color: :#fff;
+          font-size: 1.3em;
+          margin-right: auto;
+           margin-left: auto;
+        
+        }
+
+ td,th{
+   border: 5px dashed #ffffff;
+   padding: 2%;
+
+ }
+
+ 
+    tr: nth-child(even){
+      background-color: #dddddd;
+    }
+
+ 
