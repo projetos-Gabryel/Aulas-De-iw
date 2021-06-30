@@ -5,14 +5,63 @@
 </head>
 <style type="text/css">
 	
+	
+    .fixo{
+
+    	position: fixed;
+    }
+
+
 	.container{
 
 		position:relative;
 		background-color: #4B0082;
 		width: 100%
-		height:1220px;
+		height: 1220px;
 		text-align: center;
 	}
+     
+    .Topoesquerda{
+    	position: absolute;
+    	top: 16px;
+    	left:16px;
+    	font-size:18px;
+    	width:20%;
+    	background-color:green;
+    	
+    }
+   
+    .Topodireita{
+        position: absolute;
+    	top: 16px;
+    	right:16px;
+    	font-size:18px;
+    	width:20%;
+    	background-color:red;
+
+    }
+    
+    .Abaixoesquerda{
+        position: absolute;
+    	bottom: 8px;
+    	right: 16px;
+    	font-size:18px;
+    	width:20%;
+    	background-color:blue;
+
+    }
+    .centro{
+
+        position: absolute;
+    	top: 50%
+    	right: 16px;
+    	font-size:18px;
+    	width:20%;
+    	background-color:blue;
+    	margin-left: 50%
+
+       }
+
 
 
 </style>
@@ -26,13 +75,12 @@
 <div class="main">
 	<h1>Testando...</h1>
 	<div class="container">
-		<div class="Topoesquerdo">No Topo esquerda</div>
-		<div class="Topodireito">no Topo direita</div>
-		<div class="Abaixoesquerdo">Abaixo esquerda</div>
-		<div class="Abaixodireito">Abaixo direita</div>
+		<div class="Topoesquerda">No Topo esquerda</div>
+		<div class="Topodireita">no Topo direita</div>
+		<div class="Abaixoesquerda">Abaixo esquerda</div>
+		<div class="Abaixodireita">Abaixo direita</div>
 		<div class="Centro">Centro</div>
-		
-	</div>
+</div>
 
 </div>
 </html>
